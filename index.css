@@ -1,0 +1,148 @@
+@media screen and (min-width: 320px ) {
+    html {
+        font-size: calc(320 / 750 * 100px);
+    }
+}
+
+@media screen and (min-width: 360px ) {
+    html {
+        font-size: calc(360 / 750 * 100px);
+    }
+}
+
+@media screen and (min-width: 375px ) {
+    html {
+        font-size: calc(375 / 750 * 100px);
+    }
+}
+
+@media screen and (min-width: 414px ) {
+    html {
+        font-size: calc(414 / 750 * 100px);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+body {
+    font-size: 16px;
+    background: #f9f9f9;
+}
+
+.head {
+    height: 0.65rem;
+    line-height: 0.42rem;
+    font-size: 0.3rem;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    background: #f9f9f9;
+}
+
+.head .head-left {
+    width: 1.8rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: normal;
+    text-align: right;
+    font-size: 0.28rem;
+    color: #007aff;
+    background: url("images/left.jpg") no-repeat 0.17rem 0.05rem/0.29rem 0.42rem;
+}
+
+.input {
+    width: 6.87rem;
+    display: block;
+    height: 0.6rem;
+    outline: none;
+    border: none;
+    border-radius: 0.2rem;
+    background: #e4e4e6 url("images/big.jpg") no-repeat 0.16rem center/0.34rem 0.38rem;
+    margin: 0 0.32rem 0.31rem 0.32rem;
+    padding-left: 0.6rem;
+}
+
+.area {
+    height: 0.78rem;
+    border-top: 0.01rem solid #e4e4e6;
+    border-bottom: 1px solid #e4e4e6;
+    background: #f4f4f4;
+    padding-left: 0.33rem;
+    padding-top: 0.35rem;
+    font-size: 0.25rem;
+    color: #6d6d72;
+}
+
+.screen {
+    margin: 0 0.3rem 0 0.3rem;
+
+}
+.screen .first{
+    padding-top: 0.46rem;
+    height: 2.5rem;
+    border-bottom: 1px solid #c8c7cc;
+}
+.first img:nth-child(1){
+    float: left;
+    display: block;
+    width: 2.02rem;
+    height: 1.55rem;
+    background: url("images/pic-one.jpg") no-repeat left center;
+}
+.first .center{
+    float: left;
+    width: 4.4rem;
+    padding-left: 0.33rem;
+
+}
+.first .center li{
+    font-size: 0.24rem;
+}
+.first .center li:nth-child(1){
+    line-height: 0.64rem;
+    font-size: 0.28rem;
+}
+.first .center li:nth-child(3){
+    line-height: 0.48rem;
+}
+.screen .three{
+    width: 0.4rem;
+    height: 1.56rem;
+    float: right;
+    display: block;
+    background: url("images/right.jpg") no-repeat left center/0.22rem 0.3rem;
+}
+
+.bottom {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 1rem;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #e4e4e6;
+}
+
+.bottom img{
+    display: block;
+    width: 1.5rem;
+}
+.right {
+    width: 0.16rem;
+    position: fixed;
+    right: 0.07rem;
+    top: 3rem;
+    color: #288eff;
+    font-size: 0.16rem;
+}
+.right li{
+    text-align: center;
+}
